@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 
-class PeopleName extends Component {
+class TimeAgo extends Component {
   render() {
   	const { children } = this.props;
     return (
@@ -11,12 +11,12 @@ class PeopleName extends Component {
 
 var styles = {
   base: {
-	  color: '#57ad68',
-	  fontSize: 14,
-	  fontFamily: 'medium-content-sans-serif-font',
+    fontFamily: 'medium-content-sans-serif-font', 
+    fontSize: 12, 
+    color: 'rgba(0, 0, 0, 0.4)',
     display: 'block',
-    WebkitFontSmoothing: 'antialiased',
-	}
+    WebkitFontSmoothing: 'antialiased'
+  }
 }
 
-export default PeopleName;
+export default TimeAgo;
